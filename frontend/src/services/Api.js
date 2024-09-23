@@ -1,6 +1,7 @@
 import axios from "axios";
-const BASE_URL = "http://192.168.1.9:3000/api/v1";
+// const BASE_URL = "http://192.168.1.9:3000/api/v1";
 // const BASE_URL = "http://localhost:3000/api/v1";
+const BASE_URL = "https://paytm-backend-mv5i.onrender.com/api/v1";
 
 // Function for making POST requests with authentication.
 export const postAPIAuth = async (url, body) => {
